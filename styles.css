@@ -1,12 +1,21 @@
 body{
     margin: 0;
+    font-family: Barlow, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4{
+    font-family: Fraunces;
+    font-weight: 700;
 }
 
 main{
     height: 100vh;
     background-image: url(./images/desktop/image-header.jpg);
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -15,6 +24,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding: 1em;
 }
 
 nav ul{
@@ -35,8 +45,10 @@ nav li{
 
 #main_heading{
     color: white;
-    margin-top: 4em;
-    margin-bottom: 1.5em;
+    font-weight: 900;
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+    letter-spacing: 0.3em;
 }
 
 #arrow{
