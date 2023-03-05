@@ -46,11 +46,12 @@ nav li{
 #main_heading{
     color: white;
     font-weight: 900;
-    margin-top: 1.5em;
-    margin-bottom: 2em;
-    letter-spacing: 0.3em;
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    letter-spacing: 0.2em;
 }
 
 #arrow{
-    height: 4em;
+    height: 4.5em;
 }
