@@ -44,17 +44,21 @@ nav li{
     padding-left: 2em;
 }
 
+.hero_heading{
+    position: relative;
+    top: 10%;
+}
+
 #main_heading{
     color: white;
     font-weight: 900;
-    font-size: 2.5em;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
+    font-size: 3.5em;    
+    margin-bottom: 2em;
     letter-spacing: 0.2em;
 }
 
 #arrow{
-    height: 4.5em;
+    height: 6em;
 }
 
 .text_image_container{
@@ -74,7 +78,7 @@ nav li{
 }
 
 .text_block{
-    padding: 10%;
+    padding: 20%;
 }
 
 .text_block_heading{
