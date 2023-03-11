@@ -75,8 +75,8 @@ nav li{
     height: 100%;
 }
 
-.text_block{
-    padding: 20%;
+.center_text{
+    margin: 20% 15%;
 }
 
 .text_block_heading{
@@ -85,7 +85,15 @@ nav li{
 }
 
 .text_block_paragraph{
-    font-weight: 100;
+    font-size: 1em;
+    opacity: 0.5;
+    line-height: 1.5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.text_block_cta{
+    font-weight: 700;
 }
 
 #services{
