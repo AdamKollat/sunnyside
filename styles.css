@@ -11,7 +11,7 @@ h1, h2, h3, h4{
     font-weight: 700;
 }
 
-main{
+.main{
     height: 100vh;
     background-image: url(./images/desktop/image-header.jpg);
     background-size: cover;
@@ -32,10 +32,13 @@ nav ul{
     display: flex;
 }
 
-nav li{
+nav li {
+    list-style-type: none;
+}
+
+nav li > a{
     color: white;
     text-decoration: none;
-    list-style-type: none;
     display: block;
     padding: 0 2em;
 }
@@ -45,19 +48,19 @@ nav li{
 }
 
 .hero_heading{
-    margin: 8%;
+    margin: 8% 10%;
 }
 
 #main_heading{
     color: white;
     font-weight: 900;
-    font-size: 3.5em;    
-    margin-bottom: 2em;
+    font-size: 3rem;    
+    margin-bottom: 2rem;
     letter-spacing: 0.2em;
 }
 
 #arrow{
-    height: 6em;
+    height: 5rem;
 }
 
 .text_image_container{
