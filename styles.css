@@ -122,3 +122,23 @@ nav li > a{
     padding: 50% 20% 10% 20%;
     text-align: center;
 }
+
+.testimonials{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+}
+
+.testimonials_image_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.testimonials_image{
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
