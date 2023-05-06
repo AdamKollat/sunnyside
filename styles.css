@@ -179,10 +179,6 @@ nav li > a{
 
 .four_image_container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
-.four_image{
-    max-width: 25%;
-    height: auto;
-}
