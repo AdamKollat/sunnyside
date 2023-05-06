@@ -176,3 +176,13 @@ nav li > a{
     height: auto;
     border-radius: 50%;
 }
+
+.four_image_container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.four_image{
+    max-width: 25%;
+    height: auto;
+}
