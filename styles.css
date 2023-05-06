@@ -123,6 +123,21 @@ nav li > a{
     text-align: center;
 }
 
+.tetsimonials_main_container{
+    padding: 5rem;
+}
+
+.testimonials_header{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 2em;
+}
+
+.testimonials_header h3{
+    letter-spacing: 0.7rem;
+    opacity: 0.5;
+}
+
 .testimonials{
     display: grid;
     grid-template-columns: 33% 33% 33%;
