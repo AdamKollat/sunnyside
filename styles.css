@@ -180,5 +180,10 @@ nav li > a{
 .four_image_container{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    max-width: inherit;
+}
+
+.image_container img{
+    max-width: 100%;
 }
 
