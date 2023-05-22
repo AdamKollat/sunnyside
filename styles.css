@@ -5,9 +5,8 @@ body{
     font-size: 18px;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
     font-family: 'Fraunces', serif;
-
     font-weight: 700;
 }
 
@@ -190,27 +189,50 @@ nav li > a{
 
 footer{
     background-color: #90d4c5;
-    color: #2f7668;    
+    color: #2f7668;   
+}
+
+.footer_logo{
+    text-align: center;
+}
+
+.footer_logo h2{
+    font-family: Barlow;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 .footer_menu, .social_icons_container{
     width: 80%;
-    margin: auto;
-    text-align: center;
-    justify-content: center;
+    margin: 0 auto;
+    text-align: center; 
 }
 
 .footer_menu_item, .social_icon{
     display: inline-block;
-    margin: 0 20px;
+}
+
+.footer_menu_item{
+    padding: 0 20px 20px;
 }
 
 .social_icon img{
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: auto;
 }
+
+.social_icon{
+    padding: 10px;
+}
+
 .attribution{
     background-color: #90d4c5;
     color: #2f7668;
     text-align: center;
+}
+
+.attribution h5{
+    margin: 0;
 }
