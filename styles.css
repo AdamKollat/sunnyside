@@ -193,20 +193,22 @@ footer{
     color: #2f7668;    
 }
 
-.footer_menu{
+.footer_menu, .social_icons_container{
     width: 80%;
     margin: auto;
     text-align: center;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center; */
+    justify-content: center;
 }
 
-.footer_menu_item{
+.footer_menu_item, .social_icon{
     display: inline-block;
-    margin: 20px;
+    margin: 0 20px;
 }
 
+.social_icon img{
+    height: 20px;
+    width: 20px;
+}
 .attribution{
     background-color: #90d4c5;
     color: #2f7668;
